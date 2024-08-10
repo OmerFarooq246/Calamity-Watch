@@ -1,0 +1,140 @@
+#defaultCanvas0 {z-index: 1 !important;}
+
+.key{
+    background-color: var(--bs-gray-900)
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red            {background-color: rgb(200,0,00)   !important;}
+.magenta        {background-color: rgb(200,25,75)  !important;}
+.blue           {background-color: rgb(50,100,200) !important;}
+.green          {background-color: rgb(75,200,0)   !important;}
+.yellow         {background-color: rgb(200,200,0)  !important;}
+.purple         {background-color: rgb(100,50,175) !important;}
+.orange         {background-color: rgb(250, 150, 0) !important;}
+
+
+
+.top h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    color: #2c4964;
+}
+
+.top h1:last-of-type{
+    line-height: 40px;
+}
+
+.top h1:first-of-type{
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+}
+
+.top p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn {
+    width: 155px;
+    background: #1977cc;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 0px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Rubik";
+    letter-spacing: 0.3px;
+    margin: 0px 5px;
+    padding: 8px 0px;
+}
+
+.bot-btns .btn{
+    width: 320px;
+    padding: 3px 0px;
+    border: 1px solid #1977cc;
+    color: #1977cc;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+.btn:hover {
+    color: #166ab5;
+    background: #fff;
+}
+  
+.bot-btns .btn:hover {
+    background: #1977cc;
+    color: #fff;
+}
+
+.values{
+    background: #1977cc;
+    color: #fff;
+    font-family: "Rubik";
+    width: 220px;
+}
+
+.mid{
+    margin: 0px 5px;
+}
+
+h4{
+    color: black;
+}
+
+.disableClick {
+    pointer-events: none;
+    background: gray;
+}
+
+.table{
+    font-size: 13px;
+}
+
+.table th, td {
+    padding-left: 8px;
+}
+
+.donate h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.donate a{
+    background: #1977cc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 7.5px 0px;
+    width: 120px;
+    text-align: center;
+    transition: ease-out 0.25s;
+    font-size: 14px;
+}
+
+.donate a:hover{
+    color: #166ab5;
+    background: #fff;
+}
+
+.box{
+    width: 80% !important;
+}
+
+.box2{
+    border-left: 20px solid #343a40;
+    border-right: 20px solid #343a40;
+}
